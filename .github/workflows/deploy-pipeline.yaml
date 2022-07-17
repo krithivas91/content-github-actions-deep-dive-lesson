@@ -54,7 +54,7 @@ jobs:
        env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
        with:
-         tag_name: v1.2.3
+         tag_name: v1.2.4
          release_name: Release ${{ github.ref }}
          body: |
            Changes in this release
